@@ -7,6 +7,7 @@
     },
     "files": [
       "lib/angular2.d.ts",
+      "lib/jquery.d.ts",
       "app.ts"
     ]
 }
