@@ -27,7 +27,7 @@ class IGStream {
 		this.videos = [];
 		this.onplay = new EventEmitter();
 		
-		var el = elementRef.domElement;
+		var el = elementRef.nativeElement;
 		this.videoEl = <HTMLVideoElement>$(el).children('video')[0];
 		this.videoEl.addEventListener("ended", () => {
 			console.log("Video ended")

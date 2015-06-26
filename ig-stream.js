@@ -20,7 +20,7 @@ var IGStream = (function () {
         this.videoIndex = 0;
         this.videos = [];
         this.onplay = new angular2_1.EventEmitter();
-        var el = elementRef.domElement;
+        var el = elementRef.nativeElement;
         this.videoEl = $(el).children('video')[0];
         this.videoEl.addEventListener("ended", function () {
             console.log("Video ended");
